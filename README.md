@@ -10,8 +10,9 @@ OpenSSL can be downloaded using `sudo apt-get install libssl-dev` on the command
 
 ## Step3: Running the code
 The code can be executed using `./client <URL>`  
-For instance, an example of an HTTP file: `./client http://cdn4.vectorstock.com/i/1000x1000/65/18/letter-g-painted-brush-vector-20406518.jpg`  
-An example of an HTTPS file: `./client https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg`  
+For instance,  
+1. An example of an HTTP file: `./client http://cdn4.vectorstock.com/i/1000x1000/65/18/letter-g-painted-brush-vector-20406518.jpg`  
+2. An example of an HTTPS file: `./client https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg`  
 For the HTTPS file, it would be saved in the folder as `"cute-dog-headshot.jpg"`. If it is called again, it will be overwritten.
 
 ## Step4: Enjoy the bonus dog pics!
